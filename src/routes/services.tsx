@@ -28,7 +28,7 @@ const services: Service[] = [
     id: "automation",
     name: "Automation",
     price: "$800+",
-    timeline: "1–3 weeks",
+    timeline: "5-7 days",
     includes: [
       "Process mapping of the workflow you want removed",
       "Integrations across your existing tools and APIs",
@@ -39,8 +39,8 @@ const services: Service[] = [
   {
     id: "saas",
     name: "SaaS Development",
-    price: "$1,000+",
-    timeline: "3–8 weeks",
+    price: "$1,500+",
+    timeline: "3–4 weeks",
     includes: [
       "Architecture, database schema and auth",
       "Core product build with a production-ready UI",
@@ -52,7 +52,7 @@ const services: Service[] = [
     id: "ecommerce",
     name: "E-commerce",
     price: "$800+",
-    timeline: "2–5 weeks",
+    timeline: "2–3 weeks",
     includes: [
       "Storefront build with checkout and payments",
       "Product, inventory and order flows",
@@ -64,7 +64,7 @@ const services: Service[] = [
     id: "lms",
     name: "LMS Website & App",
     price: "$1,000+",
-    timeline: "4–8 weeks",
+    timeline: "2 weeks",
     includes: [
       "Course, lesson and cohort structures",
       "Student progress, assessments and certificates",
@@ -72,6 +72,19 @@ const services: Service[] = [
       "Admin dashboard for your team",
     ],
   },
+  {
+    id: "Landing Page",
+    name: "Landing Page",
+    price: "$250+",
+    timeline: "2-3 days",
+    includes: [
+      "Design and development of a single-page application",
+      "Integration with email marketing tools",
+      "Analytics setup and conversion tracking",
+      "Deployment and basic maintenance",
+    ],
+  },
+
   {
     id: "hourly",
     name: "Hourly Engineering",
@@ -112,13 +125,9 @@ function Services() {
         <ol className="mt-10 grid gap-px bg-border md:grid-cols-4">
           {process.map((item, i) => (
             <li key={item.step} className="bg-background p-8">
-              <span className="font-display text-3xl text-primary">
-                0{i + 1}
-              </span>
+              <span className="font-display text-3xl text-primary">0{i + 1}</span>
               <h3 className="mt-4 text-xl">{item.step}</h3>
-              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-                {item.copy}
-              </p>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{item.copy}</p>
             </li>
           ))}
         </ol>
