@@ -22,7 +22,7 @@ export const Route = createFileRoute("/about")({
   component: About,
 });
 
-const primary = ["Go", "React", "Next.js", "Node.js"];
+const primary = ["Go", "React", "Next.js", "Node.js", "N8N"];
 const secondary = ["C", "PHP", "JavaScript"];
 
 function About() {
@@ -35,17 +35,15 @@ function About() {
 
       <div className="mt-10 space-y-6 text-base leading-relaxed text-muted-foreground">
         <p>
-          Most of my work starts the same way: a business is losing hours to
-          manual steps, or has a product idea that keeps stalling at the
-          prototype stage. I take it from there — architecture, build, launch,
-          and the unglamorous work of keeping it stable afterwards.
+          Most of my work starts the same way: a business is losing hours to manual steps, or has a
+          product idea that keeps stalling at the prototype stage. I take it from there —
+          architecture, build, launch, and the unglamorous work of keeping it stable afterwards.
         </p>
         <p>
-          That has meant AI products used daily by real teams, automation agents
-          that quietly replaced spreadsheets and inboxes, and storefronts that
-          started converting in their first week. I work directly with founders
-          and operators, ship in weekly increments, and keep the scope honest
-          about what matters first.
+          That has meant AI products used daily by real teams, automation agents that quietly
+          replaced spreadsheets and inboxes, and storefronts that started converting in their first
+          week. I work directly with founders and operators, ship in weekly increments, and keep the
+          scope honest about what matters first.
         </p>
       </div>
 

@@ -10,14 +10,12 @@ export const Route = createFileRoute("/")({
       { title: "Subhrajit Mukherjee — Systems that ship" },
       {
         name: "description",
-        content:
-          "Automation, SaaS and e-commerce builds delivered end to end — not prototypes.",
+        content: "Automation, SaaS and e-commerce builds delivered end to end — not prototypes.",
       },
       { property: "og:title", content: "Subhrajit Mukherjee — Systems that ship" },
       {
         property: "og:description",
-        content:
-          "Automation, SaaS and e-commerce builds delivered end to end — not prototypes.",
+        content: "Automation, SaaS and e-commerce builds delivered end to end — not prototypes.",
       },
     ],
   }),
@@ -42,7 +40,7 @@ const pillars = [
   },
 ] as const;
 
-const stack = ["Go", "React", "Next.js", "Node.js", "PostgreSQL", "TypeScript"];
+const stack = ["Go", "React", "Next.js", "Node.js", "PostgreSQL", "TypeScript", "N8N"];
 
 function Home() {
   return (
@@ -50,12 +48,12 @@ function Home() {
       <section className="mx-auto flex min-h-[88vh] max-w-6xl flex-col justify-center px-6 py-24">
         <p className="eyebrow fade-up">Independent engineer · Remote worldwide</p>
         <h1 className="fade-up mt-8 max-w-4xl text-4xl leading-[1.08] sm:text-6xl lg:text-7xl">
-          I build systems that automate operations, launch products and get
-          businesses <em className="not-italic text-primary">selling online</em>.
+          I build systems that automate operations, launch products and get businesses{" "}
+          <em className="not-italic text-primary">selling online</em>.
         </h1>
         <p className="fade-up mt-8 max-w-xl text-base leading-relaxed text-muted-foreground">
-          End to end — architecture, build, launch and the support after it. Not
-          prototypes, not slide decks.
+          End to end — architecture, build, launch and the support after it. Not prototypes, not
+          slide decks.
         </p>
         <div className="fade-up mt-12 flex flex-wrap gap-4">
           <CTAButton to="/work">View work</CTAButton>
@@ -76,9 +74,7 @@ function Home() {
               className="group bg-background p-8 transition-colors hover:bg-card"
             >
               <h2 className="text-2xl">{pillar.title}</h2>
-              <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-                {pillar.copy}
-              </p>
+              <p className="mt-4 text-sm leading-relaxed text-muted-foreground">{pillar.copy}</p>
               <span className="mt-8 inline-block text-xs uppercase tracking-[0.18em] text-primary opacity-0 transition-opacity group-hover:opacity-100">
                 See pricing →
               </span>
@@ -111,10 +107,7 @@ function Home() {
           </p>
           <ul className="flex flex-wrap gap-x-8 gap-y-3">
             {stack.map((tech) => (
-              <li
-                key={tech}
-                className="text-xs uppercase tracking-[0.2em] text-muted-foreground"
-              >
+              <li key={tech} className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
                 {tech}
               </li>
             ))}
@@ -128,8 +121,7 @@ function Home() {
             Have something that needs to actually ship?
           </h2>
           <p className="mx-auto mt-5 max-w-md text-sm text-muted-foreground">
-            Tell me the outcome you need. I'll tell you the scope, timeline and
-            price.
+            Tell me the outcome you need. I'll tell you the scope, timeline and price.
           </p>
           <div className="mt-10 flex justify-center">
             <CTAButton to="/contact">Book a call</CTAButton>
