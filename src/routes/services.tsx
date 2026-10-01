@@ -10,7 +10,7 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "Automation from $800, SaaS builds from $1,000, e-commerce from $800, LMS platforms from $1,000, hourly at $45.",
+          "Automation from $800, SaaS builds from $1,000, e-commerce from $800, LMS platforms from $1,000, Landing Page from 250, hourly at $45.",
       },
       { property: "og:title", content: "Services & Pricing — Subhrajit Mukherjee" },
       {
