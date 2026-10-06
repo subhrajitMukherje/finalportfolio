@@ -96,7 +96,6 @@ const services: Service[] = [
       "Performance optimization and SEO improvements",
     ],
   },
-
   {
     id: "hourly",
     name: "Hourly Engineering",
