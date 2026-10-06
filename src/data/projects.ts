@@ -38,10 +38,10 @@ export const projects: Project[] = [
     image: sleekImage,
   },
   {
-    slug: "ai-support-chatbot-builder",
-    title: "AI Support Chatbot Builder",
+    slug: "ai-support-chatbot for website",
+    title: "AI Support Chatbot for Website",
     description:
-      "No-code builder for support agents that answer from your own docs and escalate cleanly.",
+      "An AI-powered support chatbot that can be integrated into a website to provide instant assistance to users, answer frequently asked questions, and improve customer support.",
     category: "Automation",
     stack: ["Next.js 16", "Neon", "ScaleKit", "ZenRows"],
     liveUrl: "https://example.com",

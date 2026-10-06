@@ -99,7 +99,7 @@ const services: Service[] = [
   {
     id: "hourly",
     name: "Hourly Engineering",
-    price: "$45/hr",
+    price: "$40/hr",
     timeline: "Ongoing",
     includes: [
       "Feature work on an existing codebase",
